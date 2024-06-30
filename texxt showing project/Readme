@@ -1,0 +1,30 @@
+Horizontal Slides Project
+
+Overview
+This project is a simple yet effective HTML and CSS implementation of a three-horizontal-slide presentation. Each slide contains specific content that provides an overview of myself, my skills and knowledge, and my interests for future work and professional growth.
+
+Features
+Slide 1: Introduction about myself.
+Slide 2: Information about my skills and knowledge.
+Slide 3: Details about my interests and aspirations in the corporate world.
+
+How to Use
+Clone the repository to your local machine using:
+
+sh
+Copy code
+git clone https://github.com/Jayeshpansuriya/horizontal-slides-project.git
+Open the index.html file in your preferred web browser to view the slides.
+
+Technologies Used
+HTML5
+CSS3
+
+Project Structure
+index.html: Main HTML file containing the structure of the slides.
+styles.css: CSS file for styling the slides.
+
+Contact
+For any inquiries or feedback, feel free to contact me:
+
+LinkedIn: Jayesh Dineshbhai Pansuriya
