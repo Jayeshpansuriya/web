@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body{
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Merriweather', serif;
+    background-color: #9ce7f3;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    line-height: 1.5;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: warp;
+}
+ 
+.tabs label{
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background:#fff;
+    font-weight: bold;
+    transition: background ease 0.2s;
+    border-radius: 10px 10px 0 0;
+}
+.tabs .tab{
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background : #fff;
+    border-radius: 0 10px 10px 10px;
+
+}
+.tabs input[ type="radio"]{
+    display: none;
+}
+.tabs input[ type="radio"]:checked+label{
+    background: #00d8ff;
+}
+.tabs input[ type="radio"]:checked+label+.tab{
+    display: block;
+}
+@media (max-width:45rem) {
+    .tabs   .tab,
+    .tabs label{
+        order: initial;
+
+    }
+  .tabs label{
+    width:100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }  
+}
+
+
+
